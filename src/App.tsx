@@ -8,7 +8,7 @@ import { ComponenteArticulo } from './pages/articulos/componente-articulo';
 
 const AppRoutes: React.FC = () => {
   return (
-    <Router>
+    <Router basename="/ml_portfolio_repo">
       <Header />
       <div className='content'> 
       <Routes>
